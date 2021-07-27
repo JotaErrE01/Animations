@@ -1,0 +1,24 @@
+.animacion{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+
+    /* transition: height .3s linear; */
+    /* transition: width .3s linear; */
+}
+
+.a{
+    animation: zoom-in-zoom-out .5s ease normal;
+}
+
+@keyframes zoom-in-zoom-out {
+    /* 0% {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(0.5, 0.5);
+    } */
+    100% {
+        transform: scale(0, 0);
+    }
+}
